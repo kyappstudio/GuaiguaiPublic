@@ -3,26 +3,43 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>乖乖記帳 Guaiguai</title>
+<meta name="google" content="notranslate">
+<title>乖乖記帳 Guaiguai · 法律文件 / Legal documents</title>
 <style>
-  :root { --bg: #FFF9F2; --card: #FFFFFF; --outline: #F1E4D6; --text: #3E3A39; --muted: #6F6663; --accent: #FF8A65; }
-  @media (prefers-color-scheme: dark) { :root { --bg: #1E1B1A; --card: #2A2523; --outline: #3E3634; --text: #F3EDE6; --muted: #B5ABA4; } }
-  body { margin: 0; background: var(--bg); color: var(--text); font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif; line-height: 1.7; }
-  main { max-width: 640px; margin: 0 auto; padding: 48px 20px 64px; }
-  h1 { font-size: 28px; margin: 0 0 8px; }
-  p { margin: 0 0 12px; }
-  .muted { color: var(--muted); }
-  a.btn { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 999px; font-weight: 700; margin-top: 12px; }
-  .note { color: var(--muted); font-size: 14px; margin-top: 40px; }
+  :root{ --bg:#fff9f2; --ink:#3e3a39; --muted:#6f6663; --rule:#f1e4d6; --accent:#c2552e; --warn:#8a5a1f; --warnbg:#fff1bf; }
+  @media (prefers-color-scheme:dark){
+    :root{ --bg:#1e1b1a; --ink:#f3ede6; --muted:#b5aba4; --rule:#3e3634; --accent:#ffb08a; --warn:#ffd666; --warnbg:#2a2523; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font-family:"Microsoft JhengHei","PingFang TC","Noto Sans TC",-apple-system,"Segoe UI",sans-serif;
+       font-size:17px;line-height:1.9}
+  main{max-width:38rem;margin:0 auto;padding:4rem 1.4rem 5rem}
+  h1{font-size:1.7rem;margin:0 0 .3rem}
+  p{margin:0 0 1rem;color:var(--muted)}
+  .sub{color:var(--muted);font-size:.95rem;margin:0 0 2.4rem}
+  ul{list-style:none;padding:0;margin:0}
+  li{border-top:1px solid var(--rule);padding:1.1rem 0}
+  li:last-child{border-bottom:1px solid var(--rule)}
+  a{color:var(--accent);font-size:1.05rem;text-decoration:none;font-weight:600}
+  a:hover{text-decoration:underline}
+  .v{display:block;color:var(--muted);font-size:.8rem;margin-top:.15rem}
+  footer{margin-top:3rem;color:var(--muted);font-size:.8rem;line-height:1.8}
 </style>
 </head>
 <body>
-<main>
-  <h1>乖乖記帳 Guaiguai</h1>
-  <p>你的帳本還是你的；想讓另一半看到的那幾筆，點一下就分享。無廣告、一人訂閱兩人用。</p>
-  <p class="muted">Your ledger stays yours. Share only the entries you choose. Ad-free, one subscription for two.</p>
-  <a class="btn" href="privacy/">隱私政策 · Privacy Policy</a>
-  <p class="note">本 App 僅提供記帳與費用分攤計算，不提供付款、轉帳或理財建議。<br>support@kyappstudio.com</p>
-</main>
+  <main>
+    <h1>乖乖記帳 Guaiguai</h1>
+    <p class="sub">法律文件 · Legal documents</p>
+    <ul>
+      <li><a href="privacy.html">隱私政策 · Privacy Policy</a><span class="v">v1.0 · 2026-10-07</span></li>
+      <li><a href="terms.html">使用條款 · Terms of Service</a><span class="v">v1.0 · 2026-10-07</span></li>
+    </ul>
+    <footer>
+      com.kyappstudio.guaiguai<br>
+      support@kyappstudio.com<br>
+      本 App 僅提供記帳與費用分攤計算，不提供付款、轉帳或理財建議。
+    </footer>
+  </main>
 </body>
 </html>
