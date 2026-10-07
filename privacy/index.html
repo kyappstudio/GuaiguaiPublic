@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>乖乖記帳 Guaiguai 隱私政策</title>
+<style>
+  :root { --bg: #FFF9F2; --card: #FFFFFF; --outline: #F1E4D6; --text: #3E3A39; --muted: #6F6663; --accent: #FF8A65; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1E1B1A; --card: #2A2523; --outline: #3E3634; --text: #F3EDE6; --muted: #B5ABA4; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif; line-height: 1.7; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 28px 0 8px; }
+  .meta { color: var(--muted); font-size: 14px; margin-bottom: 20px; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  .card { background: var(--card); border: 1px solid var(--outline); border-radius: 20px; padding: 16px 20px; margin: 16px 0; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--outline); margin: 40px 0; }
+  .note { color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>乖乖記帳 Guaiguai 隱私政策</h1>
+  <p class="meta">最後更新：2026-10-01 · 開發者：KY App Studio</p>
+
+  <h2>我們收集什麼</h2>
+  <ul>
+    <li><b>不需要帳號就能用。</b>記帳、預算、固定收支、匯出與本機備份全部只在你的手機上。</li>
+    <li><b>私人的筆與帳戶餘額永遠不會上傳。</b>只有你標成「共同」或「共同且分攤」的筆，以及結算紀錄，會透過 Firebase（Google）同步給你配對的那一個人。</li>
+    <li><b>配對時用 Google 登入。</b>我們只保存 Google 提供的使用者 ID 與顯示名稱，用來把你和同伴連在一起；不保存照片，也不保存其他個人資料。</li>
+    <li><b>雲端備份是加密的。</b>乖乖會員可以把備份放到雲端；備份檔先在手機上用你設定的 6 位數密碼以 AES-256-GCM 加密，密碼不會傳給我們，忘記密碼就無法還原。</li>
+    <li><b>訂閱狀態</b>由 Google Play 處理；我們只在你的 Firebase 使用者文件記錄「會員到期日」，讓同伴能一起解鎖。</li>
+  </ul>
+
+  <h2>我們不做什麼</h2>
+  <ul>
+    <li>沒有廣告、沒有廣告 SDK、不宣告廣告 ID 權限。</li>
+    <li>不分享任何資料給第三方；不做跨 App 追蹤。</li>
+    <li>不收集位置、通訊錄、裝置識別碼。</li>
+  </ul>
+
+  <h2>刪除帳號與雲端資料</h2>
+  <div class="card">
+    在 App 內：<b>設定 → 關於 → 「刪除帳號與雲端資料」</b>。這會移除雲端備份、解除配對、刪除 Google 登入身分；手機上的紀錄會保留。<br>
+    你也可以寫信到 <a href="mailto:support@kyappstudio.com">support@kyappstudio.com</a> 要求刪除，我們會在 7 個工作天內處理。
+  </div>
+
+  <h2>聯絡</h2>
+  <p><a href="mailto:support@kyappstudio.com">support@kyappstudio.com</a></p>
+  <p class="note">本 App 僅提供記帳與費用分攤計算，不提供付款、轉帳或理財建議。</p>
+
+  <hr>
+
+  <h1 lang="en">Guaiguai Privacy Policy</h1>
+  <p class="meta" lang="en">Last updated: 2026-10-01 · Developer: KY App Studio</p>
+  <ul lang="en">
+    <li><b>No account is needed.</b> Logging, budgets, recurring entries, export and local backup all stay on your phone.</li>
+    <li><b>Private entries and account balances are never uploaded.</b> Only entries you mark as "Shared" or "Shared &amp; split", plus settlements, are synced through Firebase (Google) to the one person you pair with.</li>
+    <li><b>Google sign-in is used only for pairing.</b> We keep the Google user ID and display name to connect you with your partner. No photos, no other profile data.</li>
+    <li><b>Cloud backups are encrypted</b> on your phone with AES-256-GCM using a 6-digit PIN you choose. The PIN never leaves your phone; a forgotten PIN cannot be recovered.</li>
+    <li><b>Subscriptions</b> are handled by Google Play; we only record the expiry date in your Firebase user document so your partner can be unlocked too.</li>
+    <li>No ads, no ad SDK, no advertising ID, no third-party sharing, no location, contacts or device identifiers.</li>
+    <li><b>Delete your account and cloud data</b> in the app: Settings → About → "Delete account and cloud data", or email <a href="mailto:support@kyappstudio.com">support@kyappstudio.com</a>.</li>
+  </ul>
+  <p class="note" lang="en">This app only tracks expenses and splits costs. It does not provide payments, transfers or financial advice.</p>
+</main>
+</body>
+</html>
